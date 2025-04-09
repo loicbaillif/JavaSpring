@@ -2,10 +2,9 @@ package formatting;
 
 public class PrintTitle {
     private static final int OUTPUT_WIDTH = 100;
-    public static void printTitleLv1(String title) {
-        // variables
-        char fillChar = '*';
+    private static final char FILL_CHAR = '*'
 
+    public static void printTitleLv1(String title) {
         // Print
         for (int i = 0; i < OUTPUT_WIDTH; i++) {
             System.out.print(fillChar);
@@ -19,6 +18,10 @@ public class PrintTitle {
     }
 
     public static void printTitleLv2(String title) {
+        // variables
+        int nb_blanks = OUTPUT_WIDTH - title.length() - 2;
 
+        // first char
+        System.out.print("\n" + FILL_CHAR);
     }
 }
