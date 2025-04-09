@@ -21,5 +21,13 @@ public class Theory {
         System.out.println(twenty);
         System.out.println(five);
         System.out.println(four);
+        int minusTwo  = -two;
+        System.out.println(minusTwo);
+
+        int million = 1_000_000;
+
+        long one = 1L;
+        long bigLong = 100_000_000_000L;
+        System.out.println(bigLong + one);
     }
 }
