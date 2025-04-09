@@ -11,8 +11,9 @@ public class Theory {
         System.out.println("**********\n");
 
         Scanner scanner = new Scanner(System.in);
-        String user_name = scanner.next();
-        System.out.println("Hello, " + user_name);
+        String userName = scanner.next();
+        String userLastName = scanner.next();
+        System.out.println("Hello, " + userName + " " + userLastName);
 
 
         scanner.close();
