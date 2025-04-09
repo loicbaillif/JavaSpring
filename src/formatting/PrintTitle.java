@@ -23,5 +23,14 @@ public class PrintTitle {
 
         // first char
         System.out.print("\n" + FILL_CHAR);
+
+
+        // Loop
+        for (int i = 0; i < nb_blanks / 2 + nb_blanks % 2; i++) {
+
+        }
+
+        // last char
+        System.out.println(FILL_CHAR);
     }
 }
