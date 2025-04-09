@@ -28,6 +28,11 @@ public class Theory {
             System.out.println("Welcome.");
         }
 
+        // Double
+        System.out.println("\nGive me a value for pi");
+        double userPi = scanner.nextDouble();
+        System.out.println("pi = " + userPi + " according to you.");
+
 
         scanner.close();
 
