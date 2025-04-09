@@ -21,6 +21,9 @@ public class Theory {
         System.out.println(someString2 + ".length() = " + someString2.length());
         System.out.println(someString3 + ".length() = Exception error (null has no length)");
 
+        System.out.println("\n" + someString1 + ".charAt(3) = " + someString1.charAt(3));
+
+
         PrintTitle.printTitleLv1("End of Theory");
     }
 }
