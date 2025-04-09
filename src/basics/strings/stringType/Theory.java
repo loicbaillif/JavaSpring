@@ -62,6 +62,13 @@ public class Theory {
         String concat2 = 100 + 50 + "sheep";
         System.out.println("100 + 50 + \"sheep\" = " + concat2);
 
+        PrintTitle.printTitleLv2("How to compare Strings?");
+        String someString6 = "This is a String";
+        String someString7 = "this is a String";
+        System.out.println("\t. 1:" + someString1 + "\n\t. 2:" + someString6 + "\n\t. 3:" + someString7);
+        System.out.println("1 = 2 ==> " + someString1.equals(someString6));
+        System.out.println("1 = 3 ==> " + someString1.equals(someString7));
+
         PrintTitle.printTitleLv1("End of Theory");
     }
 }
