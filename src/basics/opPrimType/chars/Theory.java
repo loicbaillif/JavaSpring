@@ -27,6 +27,8 @@ public class Theory {
         System.out.println("char += 1 => char = " + myChar3);
         myChar3 -= 3;
         System.out.println("char -= 3 => char = " + myChar3);
+        myChar3 += 'a';
+        System.out.println("char += 'a' => char = " + myChar3);
 
 
         PrintTitle.printTitleLv1("End of Theory");
