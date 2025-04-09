@@ -2,12 +2,12 @@ package formatting;
 
 public class PrintTitle {
     private static final int OUTPUT_WIDTH = 100;
-    private static final char FILL_CHAR = '*'
+    private static final char FILL_CHAR = '*';
 
     public static void printTitleLv1(String title) {
         // Print
         for (int i = 0; i < OUTPUT_WIDTH; i++) {
-            System.out.print(fillChar);
+            System.out.print(FILL_CHAR);
         }
         System.out.println();
 
@@ -29,7 +29,7 @@ public class PrintTitle {
         for (int i = 0; i < nb_blanks / 2; i++) {
             System.out.print(" ");
         }
-
+        System.out.print(title);
         for (int i = 0; i < nb_blanks / 2 + nb_blanks % 2; i++) {
             System.out.print(" ");
         }
