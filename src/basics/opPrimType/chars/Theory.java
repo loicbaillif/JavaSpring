@@ -30,6 +30,11 @@ public class Theory {
         myChar3 += 'a';
         System.out.println("char += 'a' => char = " + myChar3);
 
+        PrintTitle.printTitleLv2("Escape sequences");
+        System.out.println("\\n => " + "\n" + ".");
+        System.out.println("\\t => " + "\t" + ".");
+        System.out.println("\\r => " + "\r" + ".");
+        System.out.println("\\\" => " + "\"" + ".");
 
         PrintTitle.printTitleLv1("End of Theory");
     }
