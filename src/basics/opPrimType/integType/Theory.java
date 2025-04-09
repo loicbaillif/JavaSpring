@@ -4,6 +4,8 @@ package basics.opPrimType.integType;
 
 import formatting.PrintTitle;
 
+import java.util.Scanner;
+
 public class Theory {
     public static void main(String[] args) {
         PrintTitle.printTitleLv1("Integer types and operations");
@@ -43,5 +45,14 @@ public class Theory {
         System.out.println("n = " + n);
         n *= 3;
         System.out.println("n = twelve => " + (n == twelve));
+
+        PrintTitle.printTitleLv2("Reading numbers from the standard input");
+        Scanner scanner = new Scanner(System.in);
+        int a = scanner.nextInt();
+        int b = scanner.nextInt();
+        int sum = a + b;
+        System.out.println("a = " + a + "\t;\tb = " + b + "\t;\tsum = " + sum);
+
+        scanner.close();
     }
 }
