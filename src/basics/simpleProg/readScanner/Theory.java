@@ -11,10 +11,13 @@ public class Theory {
         System.out.println("**********\n");
 
         Scanner scanner = new Scanner(System.in);
+        /*
         String userName = scanner.next();
         String userLastName = scanner.next();
-        System.out.println("Hello, " + userName + " " + userLastName);
-
+        System.out.println("Hello, " + userName + " " + userLastName + ".\nWhat is your wish?");
+         */
+        String userWish = scanner.nextLine();
+        System.out.println("Consider '" + userWish + "' as my command.");
 
         scanner.close();
 
