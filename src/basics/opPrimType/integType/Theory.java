@@ -29,5 +29,19 @@ public class Theory {
         long one = 1L;
         long bigLong = 100_000_000_000L;
         System.out.println(bigLong + one);
+
+        PrintTitle.printTitleLv2("The forms of the assignment operator");
+        int n = 123;
+        System.out.println("n = " + n);
+        n = n + 4;
+        System.out.println("n = n + 4 ==> n = " + n);
+        n += 4;
+        System.out.println("n = " + n);
+        n -= 31;
+        System.out.println("n = " + n);
+        n /= 25;
+        System.out.println("n = " + n);
+        n *= 3;
+        System.out.println("n = twelve => " + (n == twelve));
     }
 }
