@@ -6,10 +6,12 @@ public class PrintTitle {
 
     public static void printTitleLv1(String title) {
         // Print
+        System.out.println();
         for (int i = 0; i < OUTPUT_WIDTH; i++) {
             System.out.print(FILL_CHAR);
         }
-        System.out.println();
+
+        printTitleLv2(title);
 
         for (int i = 0; i < OUTPUT_WIDTH; i++) {
             System.out.print("*");
