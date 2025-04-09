@@ -14,6 +14,12 @@ public class Theory {
         char spaceChar = ' ';
         char dollarChar = '$';
 
+        PrintTitle.printTitleLv2("Initializing characters with codes");
+        char myChar1 = '\u0123';
+        System.out.println(myChar1);
+        char myChar2 = 64;
+        System.out.println(myChar2);
+
         PrintTitle.printTitleLv1("End of Theory");
     }
 }
