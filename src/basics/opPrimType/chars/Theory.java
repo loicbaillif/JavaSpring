@@ -20,6 +20,15 @@ public class Theory {
         char myChar2 = 64;
         System.out.println(myChar2);
 
+        PrintTitle.printTitleLv2("Retrieving subsequent characters");
+        char myChar3 = 'q';
+        System.out.println("char = " + myChar3);
+        myChar3 += 1;
+        System.out.println("char += 1 => char = " + myChar3);
+        myChar3 -= 3;
+        System.out.println("char -= 3 => char = " + myChar3);
+
+
         PrintTitle.printTitleLv1("End of Theory");
     }
 }
