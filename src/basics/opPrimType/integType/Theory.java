@@ -53,6 +53,10 @@ public class Theory {
         int sum = a + b;
         System.out.println("a = " + a + "\t;\tb = " + b + "\t;\tsum = " + sum);
 
+        long c = scanner.nextLong();
+        long result = c * b;
+        System.out.println("c = " + c + "\t;\tresult = " + result);
+
         scanner.close();
     }
 }
