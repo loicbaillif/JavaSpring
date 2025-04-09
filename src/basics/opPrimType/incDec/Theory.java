@@ -16,6 +16,11 @@ public class Theory {
         n--;
         System.out.println("n-- ==> n = " + n);
 
+        n += 3;
+        System.out.println("n += 3 == n = " + n);
+        n -= 5;
+        System.out.println("n -= 5 == n = " + n);
+
         PrintTitle.printTitleLv1("End of Theory");
     }
 }
