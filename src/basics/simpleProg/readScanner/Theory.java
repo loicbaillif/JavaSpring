@@ -19,6 +19,16 @@ public class Theory {
         String userWish = scanner.nextLine();
         System.out.println("Consider '" + userWish + "' as my command.");
 
+        // Integer
+        System.out.println("\nHow old are you?");
+        int userAge = scanner.nextInt();
+        if (userAge < 18) {
+            System.out.println("You are not 18 yet, you should leave.");
+        } else {
+            System.out.println("Welcome.");
+        }
+
+
         scanner.close();
 
         System.out.println("\n**********");
