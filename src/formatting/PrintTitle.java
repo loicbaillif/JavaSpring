@@ -26,8 +26,12 @@ public class PrintTitle {
 
 
         // Loop
-        for (int i = 0; i < nb_blanks / 2 + nb_blanks % 2; i++) {
+        for (int i = 0; i < nb_blanks / 2; i++) {
+            System.out.print(" ");
+        }
 
+        for (int i = 0; i < nb_blanks / 2 + nb_blanks % 2; i++) {
+            System.out.print(" ");
         }
 
         // last char
