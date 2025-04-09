@@ -57,7 +57,10 @@ public class Theory {
         System.out.println(fullName);
         String fullName2 = firstName.concat(" ").concat(lastName);
         System.out.println(fullName2);
-
+        String concat1 = "ping" + 12 + false;
+        System.out.println("\"ping\" + 12 + false = " + concat1);
+        String concat2 = 100 + 50 + "sheep";
+        System.out.println("100 + 50 + \"sheep\" = " + concat2);
 
         PrintTitle.printTitleLv1("End of Theory");
     }
