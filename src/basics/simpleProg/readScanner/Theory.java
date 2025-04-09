@@ -11,8 +11,14 @@ public class Theory {
         System.out.println("**********\n");
 
         Scanner scanner = new Scanner(System.in);
+        String user_name = scanner.next();
+        System.out.println("Hello, " + user_name);
 
 
         scanner.close();
+
+        System.out.println("\n**********");
+        System.out.println("End of theory");
+        System.out.println("**********\n");
     }
 }
