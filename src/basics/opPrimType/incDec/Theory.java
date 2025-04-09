@@ -21,6 +21,10 @@ public class Theory {
         n -= 5;
         System.out.println("n -= 5 == n = " + n);
 
+        PrintTitle.printTitleLv2("prefix and postfix forms");
+        System.out.println("n = " + n++); // 8
+        System.out.println("n = " + ++n); // 10
+
         PrintTitle.printTitleLv1("End of Theory");
     }
 }
