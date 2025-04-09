@@ -50,6 +50,15 @@ public class Theory {
             System.out.println(e.getMessage());
         }
 
+        PrintTitle.printTitleLv2("Concatenate & Append");
+        String firstName = "Peter";
+        String lastName = "Black";
+        String fullName = firstName + " " + lastName;
+        System.out.println(fullName);
+        String fullName2 = firstName.concat(" ").concat(lastName);
+        System.out.println(fullName2);
+
+
         PrintTitle.printTitleLv1("End of Theory");
     }
 }
