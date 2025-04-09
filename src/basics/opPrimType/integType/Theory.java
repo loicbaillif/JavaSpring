@@ -12,5 +12,14 @@ public class Theory {
         int two = 2;
         int ten = 10;
 
+        int twelve = two + ten;
+        int eight = ten - two;
+        int twenty = ten * two;
+        int five = ten / two;
+        int four = twenty % eight;
+        System.out.println(twelve);
+        System.out.println(twenty);
+        System.out.println(five);
+        System.out.println(four);
     }
 }
