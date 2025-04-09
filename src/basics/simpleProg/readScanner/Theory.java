@@ -33,6 +33,9 @@ public class Theory {
         double userPi = scanner.nextDouble();
         System.out.println("pi = " + userPi + " according to you.");
 
+        // Boolean
+        System.out.println("\nDo you like Java? (true/false question)");
+        boolean userAnswer = scanner.nextBoolean();
 
         scanner.close();
 
