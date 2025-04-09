@@ -37,7 +37,12 @@ public class Theory {
         System.out.println("\t" + someString1 + ".replaceAll(\"^.h\", \"Z\") = " + someString1.replaceAll("^.h", "Z"));
         System.out.println("\t`" + someString4 + "`.trim() = " + someString5);
 
-        
+        PrintTitle.printTitleLv2("Exceptions when processing strings");
+        try {
+            System.out.println(someString3.length());
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+        }
 
         PrintTitle.printTitleLv1("End of Theory");
     }
