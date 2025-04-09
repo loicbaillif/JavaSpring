@@ -44,6 +44,12 @@ public class Theory {
             System.out.println(e.getMessage());
         }
 
+        try {
+            System.out.println(someString1.charAt(33));
+        } catch (IndexOutOfBoundsException e) {
+            System.out.println(e.getMessage());
+        }
+
         PrintTitle.printTitleLv1("End of Theory");
     }
 }
