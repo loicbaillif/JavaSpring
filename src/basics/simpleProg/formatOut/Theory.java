@@ -5,10 +5,13 @@ package basics.simpleProg.formatOut;
 import formatting.PrintTitle;
 import java.time.Year;
 import java.util.Calendar;
+import java.util.Scanner;
 
 public class Theory {
     public static void main(String[] args) {
         PrintTitle.printTitleLv1("Formatted Output - Theory");
+        Scanner scanner = new Scanner(System.in);
+
 
         PrintTitle.printTitleLv2("printf() introduction");
         System.out.printf("\tMy name is %s.\n\tI was born in %d.", "Paul", 1977);
@@ -29,6 +32,17 @@ public class Theory {
         System.out.println("\n\nChars and Strings");
         System.out.printf("Symbol = %c ; Compound = %s", 'N', "Nitrogen");
 
+        PrintTitle.printTitleLv2("String.format() method");
+        String template = "Your name is %s. How are you doing?";
+        System.out.println("Please enter your name:");
+        String filledTemplate = String.format(template, scanner.nextLine());
+        System.out.println(filledTemplate);
+        String template2 = "You were born in %d. You are %d years old.\n";
+        System.out.println("Please enter your birth year:");
+        int birthYear = scanner.nextInt();
+        System.out.println(template2.formatted(birthYear, Year.now().getValue() - birthYear));
+
+        scanner.close();
         PrintTitle.printTitleLv1("End of Theory");
     }
 }
