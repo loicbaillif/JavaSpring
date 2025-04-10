@@ -5,7 +5,8 @@ public class Main {
         // basics.opPrimType.chars.Theory.main(null);
         // basics.opPrimType.incDec.Theory.main(null);
         // basics.opPrimType.integType.Theory.main(null);
+        basics.simpleProg.formatOut.Theory.main(null);
         // basics.simpleProg.readScanner.Theory.main(null);
-        basics.strings.stringType.Theory.main(null);
+        // basics.strings.stringType.Theory.main(null);
     }
 }
