@@ -26,6 +26,9 @@ public class Theory {
         System.out.printf("Human Body temperature (Celcius) = %f\n", 37.5f);
         System.out.printf("Human Body temperature (Celcius) = %.1f\n", 37.5f);
 
+        System.out.println("\n\nChars and Strings");
+        System.out.printf("Symbol = %c ; Compound = %s", 'N', "Nitrogen");
+
         PrintTitle.printTitleLv1("End of Theory");
     }
 }
