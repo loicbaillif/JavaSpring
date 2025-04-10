@@ -22,6 +22,10 @@ public class Theory {
                 calendar.get(Calendar.MONTH),
                 calendar.get(Calendar.YEAR));
 
+        System.out.println("\n\nFloating-point value");
+        System.out.printf("Human Body temperature (Celcius) = %f\n", 37.5f);
+        System.out.printf("Human Body temperature (Celcius) = %.1f\n", 37.5f);
+
         PrintTitle.printTitleLv1("End of Theory");
     }
 }
