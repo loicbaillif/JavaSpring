@@ -35,12 +35,16 @@ public class Theory {
         PrintTitle.printTitleLv2("String.format() method");
         String template = "Your name is %s. How are you doing?";
         System.out.println("Please enter your name:");
-        String filledTemplate = String.format(template, scanner.nextLine());
+        String userName = scanner.nextLine();
+        String filledTemplate = String.format(template, userName);
         System.out.println(filledTemplate);
         String template2 = "You were born in %d. You are %d years old.\n";
         System.out.println("Please enter your birth year:");
         int birthYear = scanner.nextInt();
         System.out.println(template2.formatted(birthYear, Year.now().getValue() - birthYear));
+
+        String template3 = "Your name is %n%s:%nIt is beautiful.\n";
+        System.out.println(String.format(template3, userName));
 
         scanner.close();
         PrintTitle.printTitleLv1("End of Theory");
