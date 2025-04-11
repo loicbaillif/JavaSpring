@@ -22,6 +22,10 @@ public class Theory {
         System.out.println(15 % 4);
         System.out.println(17 % 4);
 
+        PrintTitle.printTitleLv2("Writing complex expressions");
+        System.out.println("1 + 2 * 3 - 4 = " + (1 + 2 * 3 - 4));
+        System.out.println("(1 + 2) * 3 - 4 = " + ((1 + 2) * 3 - 4));
+
 
         PrintTitle.printTitleLv1("End of theory");
     }
