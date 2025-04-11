@@ -16,7 +16,7 @@ public class PrintTitle {
         for (int i = 0; i < OUTPUT_WIDTH; i++) {
             System.out.print("*");
         }
-        System.out.println();
+        System.out.println("\n");
     }
 
     public static void printTitleLv2(String title) {
