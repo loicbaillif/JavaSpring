@@ -13,6 +13,12 @@ public class Theory {
         System.out.println(34 - 12);
         System.out.println(35 - 753);
 
+        System.out.println(15*32);
+        System.out.println(6 * 6 * 6);
+
+        System.out.println(15 / 4);
+        System.out.println(17 / 4);
+
 
         PrintTitle.printTitleLv1("End of theory");
     }
