@@ -26,6 +26,10 @@ public class Theory {
         System.out.println("1 + 2 * 3 - 4 = " + (1 + 2 * 3 - 4));
         System.out.println("(1 + 2) * 3 - 4 = " + ((1 + 2) * 3 - 4));
 
+        PrintTitle.printTitleLv2("Unary operators");
+        System.out.println(+3);
+        System.out.println(-14);
+        System.out.println(-(165-6));
 
         PrintTitle.printTitleLv1("End of theory");
     }
