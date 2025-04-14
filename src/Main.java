@@ -6,8 +6,9 @@ public class Main {
         // projects.lastPencil.Stage1.main(null);
 
         // Courses
-        basics.opPrimType.arithOper.Theory.main(null);
+        // basics.opPrimType.arithOper.Theory.main(null);
         // basics.opPrimType.chars.Theory.main(null);
+        basics.opPrimType.floatPoint.Theory.main(null);
         // basics.opPrimType.incDec.Theory.main(null);
         // basics.opPrimType.integType.Theory.main(null);
         // basics.simpleProg.formatOut.Theory.main(null);
