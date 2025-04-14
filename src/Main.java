@@ -7,8 +7,9 @@ public class Main {
 
         // Courses
         // basics.opPrimType.arithOper.Theory.main(null);
+        basics.opPrimType.boolType.Theory.main(null);
         // basics.opPrimType.chars.Theory.main(null);
-        basics.opPrimType.floatPoint.Theory.main(null);
+        // basics.opPrimType.floatPoint.Theory.main(null);
         // basics.opPrimType.incDec.Theory.main(null);
         // basics.opPrimType.integType.Theory.main(null);
         // basics.simpleProg.formatOut.Theory.main(null);
