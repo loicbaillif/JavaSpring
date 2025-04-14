@@ -21,6 +21,14 @@ public class Theory {
         System.out.println("pi = " + pi);
         System.out.println("two = " + two);
 
+        float three = 3f;
+        float four = 4.0f;
+        System.out.println("three = " + three);
+        System.out.println("four = " + four);
+        float longDecimalPart = 1.23456789101112f;
+        System.out.println("longDecimalPart = " + longDecimalPart);
+        double longDecimalDouble = 1.23456789101112d;
+        System.out.println("longDecimalDouble = " + longDecimalDouble);
 
 
         PrintTitle.printTitleLv1("End of theory");
