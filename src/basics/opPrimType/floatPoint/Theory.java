@@ -35,6 +35,12 @@ public class Theory {
         System.out.println("five = " + five);
         System.out.println("six = " + six);
 
+        PrintTitle.printTitleLv2("Arithmetic operations");
+        System.out.println("one + pi = " + (one + pi));
+        System.out.println("two * longDecimalPart = " + two * longDecimalPart);
+        System.out.println("\t4 / 3 = " + (4 / 3));
+        System.out.println("\t4.0 / 3 = " + (4.0 / 3));
+
 
         PrintTitle.printTitleLv1("End of theory");
     }
