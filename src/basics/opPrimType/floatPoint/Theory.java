@@ -30,6 +30,11 @@ public class Theory {
         double longDecimalDouble = 1.23456789101112d;
         System.out.println("longDecimalDouble = " + longDecimalDouble);
 
+        double five = 5e-3;
+        double six = 0.6e1;
+        System.out.println("five = " + five);
+        System.out.println("six = " + six);
+
 
         PrintTitle.printTitleLv1("End of theory");
     }
