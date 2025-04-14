@@ -41,6 +41,11 @@ public class Theory {
         System.out.println("\t4 / 3 = " + (4 / 3));
         System.out.println("\t4.0 / 3 = " + (4.0 / 3));
 
+        PrintTitle.printTitleLv2("Errors during computations");
+        System.out.println("3.3 / 3 = " + (3.3 / 3));
+        System.out.println("0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 = " +
+                (0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1));
+
 
         PrintTitle.printTitleLv1("End of theory");
     }
