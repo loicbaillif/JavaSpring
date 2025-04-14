@@ -4,6 +4,7 @@ package basics.opPrimType.floatPoint;
 
 import formatting.PrintTitle;
 
+import java.util.Locale;
 import java.util.Scanner;
 
 public class Theory {
@@ -55,6 +56,14 @@ public class Theory {
         System.out.println("Triangle height?");
         double height = scanner.nextDouble();
         System.out.println("Triangle area = " + (base * height / 2));
+
+        PrintTitle.printTitleLv2("The decimal separator");
+        Scanner scanner2 = new Scanner(System.in).useLocale(Locale.FRANCE);
+        double userPi = scanner2.nextDouble();
+        System.out.println("userPi = " + userPi);  // 3,1415
+
+        scanner.close();
+        scanner2.close();
 
         PrintTitle.printTitleLv1("End of theory");
     }
