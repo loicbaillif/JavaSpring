@@ -14,6 +14,14 @@ public class Theory {
         double someNegDouble = -1.23;
         double pi = 3.141;
 
+        double two = 2;
+        System.out.println("zero = " + zero);
+        System.out.println("one = " + one);
+        System.out.println("someNegDouble = " + someNegDouble);
+        System.out.println("pi = " + pi);
+        System.out.println("two = " + two);
+
+
 
         PrintTitle.printTitleLv1("End of theory");
     }
