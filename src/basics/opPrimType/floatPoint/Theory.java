@@ -4,6 +4,8 @@ package basics.opPrimType.floatPoint;
 
 import formatting.PrintTitle;
 
+import java.util.Scanner;
+
 public class Theory {
     public static void main(String[] args) {
         PrintTitle.printTitleLv1("Floating-point types");
@@ -46,6 +48,13 @@ public class Theory {
         System.out.println("0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 = " +
                 (0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1));
 
+        System.out.println("Reading float-point numbers");
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Triangle base?");
+        float base = scanner.nextFloat();
+        System.out.println("Triangle height?");
+        double height = scanner.nextDouble();
+        System.out.println("Triangle area = " + (base * height / 2));
 
         PrintTitle.printTitleLv1("End of theory");
     }
