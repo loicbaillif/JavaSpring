@@ -14,6 +14,30 @@ public class Theory {
         System.out.println("open: " + open);
         System.out.println("close: " + close);
 
+        PrintTitle.printTitleLv1("Logical operators");
+        System.out.println("- NOT");
+        boolean f = false;
+        boolean t = !f;
+        System.out.println("t = !false ==> t = " + t);
+
+        System.out.println("\n- AND");
+        System.out.println("false && false = " + (false && false));
+        System.out.println("true && false = " + (true && false));
+        System.out.println("false && true = " + (false && true));
+        System.out.println("true && true = " + (true && true));
+
+        System.out.println("\n- OR");
+        System.out.println("false || false = " + (false || false));
+        System.out.println("true || false = " + (true || false));
+        System.out.println("false || true = " + (false || true));
+        System.out.println("true || true = " + (true || true));
+
+        System.out.println("\n-XOR");
+        System.out.println("false ^ false = " + (false ^ false));
+        System.out.println("true ^ false = " + (true ^ false));
+        System.out.println("false ^ true = " + (false ^ true));
+        System.out.println("true ^ true = " + (true ^ true));
+
         PrintTitle.printTitleLv1("End of Theory");
     }
 }
