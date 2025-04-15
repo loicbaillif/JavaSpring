@@ -16,6 +16,14 @@ public class Theory {
         System.out.println("\t< (less than)");
         System.out.println("\t<= (less than or equal to)");
 
+        PrintTitle.printTitleLv2("Comparing integer numbers");
+        System.out.println("\t1 == 1 ==> " + (1 == 1));
+        System.out.println("\t1 != 1 ==> " + (1 != 1));
+        System.out.println("\t1 > 1 ==> " + (1 > 1));
+        System.out.println("\t1 >= 1 ==> " + (1 >= 1));
+        System.out.println("\t1 < 1 ==> " + (1 < 1));
+        System.out.println("\t1 <= 1 ==> " + (1 <= 1));
+
         PrintTitle.printTitleLv1("End of Theory");
     }
 }
