@@ -24,6 +24,15 @@ public class Theory {
             System.out.println("Time to cruise, Tom.");
         }
 
+        PrintTitle.printTitleLv2("if-else-if cases");
+        if (user_age % 10 == 0) {
+            System.out.println("You just entered a new decade");
+        } else if (user_age < 10) {
+            System.out.println("Hi kid; how are you doing?");
+        } else {
+            System.out.println("yeah ... no big deal here.");
+        }
+
         scanner.close();
 
         PrintTitle.printTitleLv1("End of Theory");
