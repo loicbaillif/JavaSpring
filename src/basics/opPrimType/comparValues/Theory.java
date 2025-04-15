@@ -24,6 +24,13 @@ public class Theory {
         System.out.println("\t1 < 1 ==> " + (1 < 1));
         System.out.println("\t1 <= 1 ==> " + (1 <= 1));
 
+        PrintTitle.printTitleLv2("Joining relational operations using logical operators");
+        int user_age = 22;
+        System.out.println("user_age > 18 && user_age < 24 ==> " + (user_age > 18 && user_age < 24));
+        int low = 100, high = 200;
+        boolean inRange = user_age > low && user_age < high;
+        System.out.println("inRange == " + inRange);
+
         PrintTitle.printTitleLv1("End of Theory");
     }
 }
