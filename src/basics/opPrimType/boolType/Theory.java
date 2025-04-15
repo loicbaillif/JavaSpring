@@ -41,6 +41,13 @@ public class Theory {
         PrintTitle.printTitleLv2("The precedence of logical operators");
         System.out.println("Decreasing priority: \n\t!\n\t^\n\t&&\n\t||");
 
+        PrintTitle.printTitleLv2("Example: Trekking");
+        boolean hot = true;
+        boolean raining = false;
+        boolean summer = false; // spring?
+        boolean promenade = hot && (!raining || summer);
+        System.out.println("promenade: " + promenade);
+
         PrintTitle.printTitleLv1("End of Theory");
     }
 }
