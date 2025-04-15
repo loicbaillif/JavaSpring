@@ -32,11 +32,14 @@ public class Theory {
         System.out.println("false || true = " + (false || true));
         System.out.println("true || true = " + (true || true));
 
-        System.out.println("\n-XOR");
+        System.out.println("\n- XOR");
         System.out.println("false ^ false = " + (false ^ false));
         System.out.println("true ^ false = " + (true ^ false));
         System.out.println("false ^ true = " + (false ^ true));
         System.out.println("true ^ true = " + (true ^ true));
+
+        PrintTitle.printTitleLv2("The precedence of logical operators");
+        System.out.println("Decreasing priority: \n\t!\n\t^\n\t&&\n\t||");
 
         PrintTitle.printTitleLv1("End of Theory");
     }
