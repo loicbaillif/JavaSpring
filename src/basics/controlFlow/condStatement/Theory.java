@@ -17,6 +17,12 @@ public class Theory {
             System.out.println("You are less than 18 years old");
         }
 
+        PrintTitle.printTitleLv2("if-else case");
+        if (user_age < 65) {
+            System.out.println("Too young to retire");
+        } else {
+            System.out.println("Time to cruise, Tom.");
+        }
 
         scanner.close();
 
