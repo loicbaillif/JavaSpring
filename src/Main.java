@@ -3,12 +3,12 @@ public class Main {
         System.out.println("Hyperskill - Java Backend Developer (Spring Boot)");
 
         // Projects
-        // projects.lastPencil.Stage1.main(null);
+        projects.lastPencil.Stage2.main(null);
 
         // *** COURSES ***
         // basics.controlFlow.condStatement.Theory.main(null);
 
-        basics.dataTypesVar.typeCast.Theory.main(null);
+        // basics.dataTypesVar.typeCast.Theory.main(null);
 
         // basics.opPrimType.arithOper.Theory.main(null);
         // basics.opPrimType.boolType.Theory.main(null);
