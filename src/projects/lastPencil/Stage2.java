@@ -13,10 +13,13 @@ public class Stage2 {
 
         // Variables
         Scanner sc = new Scanner(System.in);
-        int nbPencils = sc.nextInt();
+        int nbPencils;
         String player1 = "Josephine";
         String player2 = "Jane";
+        boolean player1Starts;
 
+        System.out.println("How many pencils would you like to use:");
+        nbPencils = sc.nextInt();
 
         sc.close();
 
