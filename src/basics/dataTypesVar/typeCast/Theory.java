@@ -21,6 +21,12 @@ public class Theory {
         int num10 = ch1;
         System.out.println("ch1 = " + ch1 + "\t-\t int num10 = ch1 ==> num10 = " + num10);
 
+        PrintTitle.printTitleLv2("Explicit casting");
+        double d1 = 321.2345;
+        System.out.println("\t- d1 = " + d1 + " - (long) d1 = " + ((long) d1));
+        System.out.println("\t- d1 = " + d1 + " - (byte) d1 = " + ((byte) d1));
+        int result = (int) (3 + 2L);
+        System.out.println("result = (3 + 2L) =>" + result);
 
         PrintTitle.printTitleLv1("End of theory");
     }
