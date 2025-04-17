@@ -4,6 +4,7 @@ package projects.lastPencil;
 
 import formatting.PrintTitle;
 
+import java.util.Objects;
 import java.util.Scanner;
 
 public class Stage2 {
@@ -22,6 +23,12 @@ public class Stage2 {
         nbPencils = sc.nextInt();
 
         System.out.printf("Who will be the first (%s, %s):%n", player1, player2);
+        player1Starts = Objects.equals(sc.nextLine(), player1);
+
+        for (int i = 0; i < nbPencils; i++) {
+            System.out.print("|");
+        }
+        System.out.println();
 
         sc.close();
 
