@@ -17,6 +17,9 @@ public class Stage2 {
         String player1 = "Josephine";
         String player2 = "Jane";
 
+
+        sc.close();
+
         pt.printTitleLv1("End of stage 2");
     }
 }
