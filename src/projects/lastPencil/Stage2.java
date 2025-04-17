@@ -21,6 +21,8 @@ public class Stage2 {
         System.out.println("How many pencils would you like to use:");
         nbPencils = sc.nextInt();
 
+        System.out.printf("Who will be the first (%s, %s):%n", player1, player2);
+
         sc.close();
 
         pt.printTitleLv1("End of stage 2");
