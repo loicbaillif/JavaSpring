@@ -5,8 +5,10 @@ public class Main {
         // Projects
         // projects.lastPencil.Stage1.main(null);
 
-        // Courses
-        basics.controlFlow.condStatement.Theory.main(null);
+        // *** COURSES ***
+        // basics.controlFlow.condStatement.Theory.main(null);
+
+        basics.dataTypesVar.typeCast.Theory.main(null);
 
         // basics.opPrimType.arithOper.Theory.main(null);
         // basics.opPrimType.boolType.Theory.main(null);
