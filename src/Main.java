@@ -6,10 +6,11 @@ public class Main {
         // projects.lastPencil.Stage2.main(null);
 
         // *** COURSES ***
+        basics.controlFlow.breakCont.Theory.main(args);
         // basics.controlFlow.condStatement.Theory.main(null);
         // basics.controlFlow.forLoop.Theory.main(args);
         // basics.controlFlow.oneLineCond.Theory.main(args);
-        basics.controlFlow.whileDoWhile.Theory.main(args);
+        // basics.controlFlow.whileDoWhile.Theory.main(args);
 
         // basics.dataTypesVar.typeCast.Theory.main(null);
 
