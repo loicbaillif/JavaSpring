@@ -39,6 +39,16 @@ public class Theory {
             System.out.printf("\t. Your input is %d%n", value);
         } while (value != 42);
 
+        PrintTitle.printTitleLv2("Unknown length sequence");
+
+        int sum = 0;
+        while (scanner.hasNextInt()) {
+            sum += scanner.nextInt();
+        }
+        System.out.printf("\tThe sum is %d%n", sum);
+
+        scanner.close();
+
         PrintTitle.printTitleLv1("End of theory");
     }
 }
