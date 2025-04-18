@@ -4,13 +4,11 @@ package projects.lastPencil;
 
 import formatting.PrintTitle;
 
-import java.util.Objects;
 import java.util.Scanner;
 
 public class Stage2 {
     public static void main(String[] args) {
-        PrintTitle pt = new PrintTitle();
-        pt.printTitleLv1("Last Pencil - Stage 2/5");
+        PrintTitle.printTitleLv1("Last Pencil - Stage 2/5");
 
         // Variables
         Scanner sc = new Scanner(System.in);
@@ -20,18 +18,22 @@ public class Stage2 {
         boolean player1Starts;
 
         System.out.println("How many pencils would you like to use:");
-        nbPencils = sc.nextInt();
+        nbPencils = Integer.parseInt(sc.nextLine());
 
         System.out.printf("Who will be the first (%s, %s):%n", player1, player2);
-        player1Starts = Objects.equals(sc.nextLine(), player1);
+        player1Starts = sc.nextLine().equals(player1);
 
+        // Print pencils
         for (int i = 0; i < nbPencils; i++) {
             System.out.print("|");
         }
         System.out.println();
 
+        // Print first prompt
+        System.out.printf("%s is going first!%n", (player1Starts ? player1 : player2));
+
         sc.close();
 
-        pt.printTitleLv1("End of stage 2");
+        PrintTitle.printTitleLv1("End of stage 2");
     }
 }
