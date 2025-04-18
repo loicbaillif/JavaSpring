@@ -10,7 +10,7 @@ public class Main {
         // basics.controlFlow.condStatement.Theory.main(null);
         // basics.controlFlow.forLoop.Theory.main(args);
         // basics.controlFlow.oneLineCond.Theory.main(args);
-        basics.controlFlow.switchStatement.Theory.main(args);
+        // basics.controlFlow.switchStatement.Theory.main(args);
         // basics.controlFlow.whileDoWhile.Theory.main(args);
 
         // basics.dataTypesVar.typeCast.Theory.main(null);
@@ -26,5 +26,8 @@ public class Main {
         // basics.simpleProg.formatOut.Theory.main(null);
         // basics.simpleProg.readScanner.Theory.main(null);
         // basics.strings.stringType.Theory.main(null);
+
+
+        workWithData.arrays.arrayType.Theory.main(args);
     }
 }
