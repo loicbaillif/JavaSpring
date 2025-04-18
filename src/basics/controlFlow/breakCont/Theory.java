@@ -28,6 +28,15 @@ public class Theory {
             System.out.println();
         }
 
+        PrintTitle.printTitleLv2("The continue statement");
+        i = 0;
+        while (i < 30) {
+            if (++i % 5 == 0) {
+                continue;
+            }
+            System.out.printf("%d%n", i);
+        }
+
         PrintTitle.printTitleLv1("End of Theory");
     }
 }
