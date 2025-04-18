@@ -8,7 +8,18 @@ public class Theory {
     public static void main(String[] args) {
         PrintTitle.printTitleLv1("while and do-while loops - theory");
 
+        PrintTitle.printTitleLv2("The while loop");
+        int i = 0;
+        while (i < 10) {
+            System.out.println("\t- " + i);
+            i++;
+        }
 
+        char alphabetLetter = 'z';
+        while (alphabetLetter >= 'a') {
+            System.out.println("\t- " + alphabetLetter);
+            alphabetLetter--;
+        }
 
         PrintTitle.printTitleLv1("End of theory");
     }
