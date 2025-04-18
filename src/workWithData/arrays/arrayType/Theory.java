@@ -11,6 +11,9 @@ public class Theory {
         PrintTitle.printTitleLv2("Declaration");
         int[] array; // Declaration
 
+        PrintTitle.printTitleLv2("Instanciation");
+        int[] numbersArray = {1, 3, 5, 7, 9};
+
         PrintTitle.printTitleLv1("End of theory");
     }
 }
