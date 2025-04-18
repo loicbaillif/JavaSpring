@@ -4,6 +4,8 @@ package basics.controlFlow.whileDoWhile;
 
 import formatting.PrintTitle;
 
+import java.util.Scanner;
+
 public class Theory {
     public static void main(String[] args) {
         PrintTitle.printTitleLv1("while and do-while loops - theory");
@@ -28,6 +30,14 @@ public class Theory {
             System.out.printf("%c ", alphabetLetter--);
         } while (alphabetLetter >= 'A');
         System.out.println();
+
+        Scanner scanner = new Scanner(System.in);
+
+        int value;
+        do {
+            value = scanner.nextInt();
+            System.out.printf("\t. Your input is %d%n", value);
+        } while (value != 42);
 
         PrintTitle.printTitleLv1("End of theory");
     }
