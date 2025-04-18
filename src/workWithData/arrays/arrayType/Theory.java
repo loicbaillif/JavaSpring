@@ -29,6 +29,9 @@ public class Theory {
         Arrays.fill(charArray, n / 2, n, (char) (8 * numbersArray[index]));
         System.out.println(Arrays.toString(charArray));
 
+        PrintTitle.printTitleLv2("Array length");
+        System.out.println(numbersArray.length);
+
         PrintTitle.printTitleLv1("End of theory");
     }
 }
