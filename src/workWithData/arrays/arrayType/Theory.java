@@ -14,6 +14,10 @@ public class Theory {
         PrintTitle.printTitleLv2("Instanciation");
         int[] numbersArray = {1, 3, 5, 7, 9};
 
+        PrintTitle.printTitleLv2("Creating an array with new");
+        int n = 5;
+        int[] numbers2Array = new int[n];
+
         PrintTitle.printTitleLv1("End of theory");
     }
 }
