@@ -16,6 +16,12 @@ public class Theory {
         String greetings = userAge > 18? "Welcome dear user" : "Yo user!";
         System.out.println(greetings);
 
+        PrintTitle.printTitleLv2("Some examples");
+        System.out.println((userAge % 2 == 0 ? "Even" : "Odd") + " age");
+        String comparison = userAge == 25 ? "You are 25" :
+                userAge > 25 ? "You are an adult" : "You are still young";
+        System.out.println(comparison);
+
         PrintTitle.printTitleLv1("End of theory");
     }
 }
