@@ -21,6 +21,14 @@ public class Theory {
             alphabetLetter--;
         }
 
+        PrintTitle.printTitleLv2("The do-while loop");
+
+        alphabetLetter = 'Z';
+        do {
+            System.out.printf("%c ", alphabetLetter--);
+        } while (alphabetLetter >= 'A');
+        System.out.println();
+
         PrintTitle.printTitleLv1("End of theory");
     }
 }
