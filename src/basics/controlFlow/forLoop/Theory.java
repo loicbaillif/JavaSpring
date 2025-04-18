@@ -36,7 +36,7 @@ public class Theory {
         PrintTitle.printTitleLv2("Nested loops");
         System.out.println((int) 'A');  // 65
         for (int i = 1; i < 10; i++) {
-            for (int j = (int) 'A'; j <= (int) 'Z'; j++) {
+            for (int j = 'A'; j <= (int) 'Z'; j++) {
                 System.out.printf("%d%c ", i, (char) j);
             }
             System.out.println();
